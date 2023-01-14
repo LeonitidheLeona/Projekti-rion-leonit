@@ -1,0 +1,23 @@
+.main-text{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+a{
+    color: rgb(75, 68, 68);
+    text-decoration: none;
+}
+#temple{
+    float: right;
+}
+#spain{
+    float:left
+}
+.Baller{
+    background-color: mediumturquoise;
+    border: 3px solid black;
+    margin-top: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
