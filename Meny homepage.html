@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Tourism website</title>
+</head>
+<body>
+  <div class="mytabs">
+    <input type="radio" id="tabHome" name="mytabs" checked="checked">
+    <label for="tabHome">Home</label>
+    <div class="tab">
+      <h2>Home</h2>
+      <p>This is the place our highlited ones stay.Hope you enjyoed the stay!
+        <img src="MEXICO.png" width="400px"><br>
+        <a href="file:///C:/Users/Dell/.vscode/404%20not%20found.html" id="LOL">Mexico</a>
+        <br>
+        <i>"Yes you're seeing it, but the Mexico page had to be put off-limits. As I'm trying to come up with a more stylish desing and an actual 
+          Template. Now this page is definitely getting a new look too but before I have to create an placeholder for total redesigs.I will try to 
+          make the updates as fast as possibile."</i>
+      </p>
+    </div>
+
+    <input type="radio" id="tabStaff" name="mytabs">
+    <label for="tabStaff">Meet Our Staff</label>
+    <div class="tab">
+      <h2>Meet Our Staff</h2>
+      <p><h3>Leonit</h3>
+        <br><img src="!" width="300 px" alt=" An actual good image was not found"><br>
+        Leonit is mostly the data collector, as he is the responsibile person of making more guides on different states.Cracked humour and kind off
+        lazy, he's makes the pages more like comedy books than guidelines.
+        <h3>Rion</h3>
+        <br><img src="?" width="300 px" alt="Image not found"><br>
+        Rion created the homepage tabs and will make more further desings.I don't know much from him exept personal info.
+        
+      </p>
+    </div>
+
+    <input type="radio" id="tabAbout" name="mytabs">
+    <label for="tabAbout">About</label>
+    <div class="tab">
+      <h2>About</h2>
+      <p>This page was made from 2 people to inform and help people for tourisim destinations. Now this page is nothing compared to 
+        other pages, But <i>"When the titans fall, the small ones rise"                                                            
+        Leo for no reason.</i>
+        
+      </p>
+    </div>
+    
+    <input type="radio" id="tabContact" name="mytabs">
+    <label for="tabContact">Contact Us</label>
+    <div class="tab">
+    <h2>Contact Us</h2>
+    <p>Here you can say <del>BAD</del> Nice things about us.This <del>horrible</del> magnificet website does need improvments always and who better
+    can say that we <del>need</del> want more improvments than the user itself!
+    <i>The autor <del>was held at a gunpoint</del> was free to say anything in this paragraph.</i>
+    <br>
+    <a href="file:///C:/Users/Dell/.vscode/contact.html" id="con">Contact us</a></p>
+    </div>
+
+    <div class="Background _image">
+      <p>Tourism website</p>
+      <img class="airplane" src="" alt="image does not exist">
+    
+</body>
+</html>
+
+<style>
+
+.airplane {
+    width: 300px;
+    height: 200px;
+    background-image: url(img/airplane);
+    background-size: contain;
+    background-position: top;
+
+}
+  body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}
+#LOL{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: not-allowed;
+  }
+#LOL:hover {
+  background-color: #0c5f0f;
+  color: white;
+}
+#con{
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#con :hover{
+  background-color: rgb(0, 0, 119);
+  color: white;
+}
+</style>
